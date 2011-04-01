@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411C49271346987300E066ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C49261346987300E066ED /* UIKit.framework */; };
+		411C49291346987300E066ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C49281346987300E066ED /* Foundation.framework */; };
+		411C492B1346987300E066ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C492A1346987300E066ED /* CoreGraphics.framework */; };
+		411C49311346987300E066ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 411C492F1346987300E066ED /* InfoPlist.strings */; };
+		411C49341346987300E066ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C49331346987300E066ED /* main.m */; };
+		411C49371346987300E066ED /* PicTileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C49361346987300E066ED /* PicTileAppDelegate.m */; };
+		411C493B1346987300E066ED /* PicTileAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C493A1346987300E066ED /* PicTileAppDelegate_iPhone.m */; };
+		411C493E1346987300E066ED /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411C493C1346987300E066ED /* MainWindow_iPhone.xib */; };
+		411C49421346987300E066ED /* PicTileAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C49411346987300E066ED /* PicTileAppDelegate_iPad.m */; };
+		411C49451346987300E066ED /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411C49431346987300E066ED /* MainWindow_iPad.xib */; };
+		411C494C1346987300E066ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C49261346987300E066ED /* UIKit.framework */; };
+		411C494D1346987300E066ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C49281346987300E066ED /* Foundation.framework */; };
+		411C494E1346987300E066ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411C492A1346987300E066ED /* CoreGraphics.framework */; };
+		411C49561346987300E066ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 411C49541346987300E066ED /* InfoPlist.strings */; };
+		411C49591346987300E066ED /* PicTileTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 411C49581346987300E066ED /* PicTileTests.h */; };
+		411C495B1346987300E066ED /* PicTileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C495A1346987300E066ED /* PicTileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411C494F1346987300E066ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411C49191346987200E066ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411C49211346987200E066ED;
+			remoteInfo = PicTile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411C49221346987300E066ED /* PicTile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicTile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411C49261346987300E066ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		411C49281346987300E066ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		411C492A1346987300E066ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		411C492E1346987300E066ED /* PicTile-Info.plist */ = {isa = PBXFileReference; path = "PicTile-Info.plist"; sourceTree = "<group>"; };
+		411C49301346987300E066ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		411C49321346987300E066ED /* PicTile-Prefix.pch */ = {isa = PBXFileReference; path = "PicTile-Prefix.pch"; sourceTree = "<group>"; };
+		411C49331346987300E066ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		411C49351346987300E066ED /* PicTileAppDelegate.h */ = {isa = PBXFileReference; path = PicTileAppDelegate.h; sourceTree = "<group>"; };
+		411C49361346987300E066ED /* PicTileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicTileAppDelegate.m; sourceTree = "<group>"; };
+		411C49391346987300E066ED /* PicTileAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = PicTileAppDelegate_iPhone.h; path = iPhone/PicTileAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		411C493A1346987300E066ED /* PicTileAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PicTileAppDelegate_iPhone.m; path = iPhone/PicTileAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		411C493D1346987300E066ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		411C49401346987300E066ED /* PicTileAppDelegate_iPad.h */ = {isa = PBXFileReference; name = PicTileAppDelegate_iPad.h; path = iPad/PicTileAppDelegate_iPad.h; sourceTree = "<group>"; };
+		411C49411346987300E066ED /* PicTileAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PicTileAppDelegate_iPad.m; path = iPad/PicTileAppDelegate_iPad.m; sourceTree = "<group>"; };
+		411C49441346987300E066ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		411C494B1346987300E066ED /* PicTileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicTileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411C49531346987300E066ED /* PicTileTests-Info.plist */ = {isa = PBXFileReference; path = "PicTileTests-Info.plist"; sourceTree = "<group>"; };
+		411C49551346987300E066ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		411C49571346987300E066ED /* PicTileTests-Prefix.pch */ = {isa = PBXFileReference; path = "PicTileTests-Prefix.pch"; sourceTree = "<group>"; };
+		411C49581346987300E066ED /* PicTileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicTileTests.h; sourceTree = "<group>"; };
+		411C495A1346987300E066ED /* PicTileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicTileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411C491F1346987200E066ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C49271346987300E066ED /* UIKit.framework in Frameworks */,
+				411C49291346987300E066ED /* Foundation.framework in Frameworks */,
+				411C492B1346987300E066ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411C49471346987300E066ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C494C1346987300E066ED /* UIKit.framework in Frameworks */,
+				411C494D1346987300E066ED /* Foundation.framework in Frameworks */,
+				411C494E1346987300E066ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411C49171346987200E066ED = {
+			isa = PBXGroup;
+			children = (
+				411C492C1346987300E066ED /* PicTile */,
+				411C49511346987300E066ED /* PicTileTests */,
+				411C49251346987300E066ED /* Frameworks */,
+				411C49231346987300E066ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411C49231346987300E066ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411C49221346987300E066ED /* PicTile.app */,
+				411C494B1346987300E066ED /* PicTileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411C49251346987300E066ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411C49261346987300E066ED /* UIKit.framework */,
+				411C49281346987300E066ED /* Foundation.framework */,
+				411C492A1346987300E066ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411C492C1346987300E066ED /* PicTile */ = {
+			isa = PBXGroup;
+			children = (
+				411C49351346987300E066ED /* PicTileAppDelegate.h */,
+				411C49361346987300E066ED /* PicTileAppDelegate.m */,
+				411C49381346987300E066ED /* iPhone */,
+				411C493F1346987300E066ED /* iPad */,
+				411C492D1346987300E066ED /* Supporting Files */,
+			);
+			path = PicTile;
+			sourceTree = "<group>";
+		};
+		411C492D1346987300E066ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411C492E1346987300E066ED /* PicTile-Info.plist */,
+				411C492F1346987300E066ED /* InfoPlist.strings */,
+				411C49321346987300E066ED /* PicTile-Prefix.pch */,
+				411C49331346987300E066ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		411C49381346987300E066ED /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				411C49391346987300E066ED /* PicTileAppDelegate_iPhone.h */,
+				411C493A1346987300E066ED /* PicTileAppDelegate_iPhone.m */,
+				411C493C1346987300E066ED /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		411C493F1346987300E066ED /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				411C49401346987300E066ED /* PicTileAppDelegate_iPad.h */,
+				411C49411346987300E066ED /* PicTileAppDelegate_iPad.m */,
+				411C49431346987300E066ED /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		411C49511346987300E066ED /* PicTileTests */ = {
+			isa = PBXGroup;
+			children = (
+				411C49581346987300E066ED /* PicTileTests.h */,
+				411C495A1346987300E066ED /* PicTileTests.m */,
+				411C49521346987300E066ED /* Supporting Files */,
+			);
+			path = PicTileTests;
+			sourceTree = "<group>";
+		};
+		411C49521346987300E066ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				411C49531346987300E066ED /* PicTileTests-Info.plist */,
+				411C49541346987300E066ED /* InfoPlist.strings */,
+				411C49571346987300E066ED /* PicTileTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411C49211346987200E066ED /* PicTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411C495E1346987300E066ED /* Build configuration list for PBXNativeTarget "PicTile" */;
+			buildPhases = (
+				411C491E1346987200E066ED /* Sources */,
+				411C491F1346987200E066ED /* Frameworks */,
+				411C49201346987200E066ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicTile;
+			productName = PicTile;
+			productReference = 411C49221346987300E066ED /* PicTile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		411C494A1346987300E066ED /* PicTileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411C49611346987300E066ED /* Build configuration list for PBXNativeTarget "PicTileTests" */;
+			buildPhases = (
+				411C49461346987300E066ED /* Sources */,
+				411C49471346987300E066ED /* Frameworks */,
+				411C49481346987300E066ED /* Resources */,
+				411C49491346987300E066ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411C49501346987300E066ED /* PBXTargetDependency */,
+			);
+			name = PicTileTests;
+			productName = PicTileTests;
+			productReference = 411C494B1346987300E066ED /* PicTileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411C49191346987200E066ED /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 411C491C1346987200E066ED /* Build configuration list for PBXProject "PicTile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 411C49171346987200E066ED;
+			productRefGroup = 411C49231346987300E066ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411C49211346987200E066ED /* PicTile */,
+				411C494A1346987300E066ED /* PicTileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411C49201346987200E066ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C49311346987300E066ED /* InfoPlist.strings in Resources */,
+				411C493E1346987300E066ED /* MainWindow_iPhone.xib in Resources */,
+				411C49451346987300E066ED /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411C49481346987300E066ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C49561346987300E066ED /* InfoPlist.strings in Resources */,
+				411C49591346987300E066ED /* PicTileTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		411C49491346987300E066ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411C491E1346987200E066ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C49341346987300E066ED /* main.m in Sources */,
+				411C49371346987300E066ED /* PicTileAppDelegate.m in Sources */,
+				411C493B1346987300E066ED /* PicTileAppDelegate_iPhone.m in Sources */,
+				411C49421346987300E066ED /* PicTileAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411C49461346987300E066ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C495B1346987300E066ED /* PicTileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411C49501346987300E066ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411C49211346987200E066ED /* PicTile */;
+			targetProxy = 411C494F1346987300E066ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411C492F1346987300E066ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411C49301346987300E066ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		411C493C1346987300E066ED /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411C493D1346987300E066ED /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		411C49431346987300E066ED /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411C49441346987300E066ED /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		411C49541346987300E066ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411C49551346987300E066ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411C495C1346987300E066ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411C495D1346987300E066ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		411C495F1346987300E066ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicTile/PicTile-Prefix.pch";
+				INFOPLIST_FILE = "PicTile/PicTile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		411C49601346987300E066ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicTile/PicTile-Prefix.pch";
+				INFOPLIST_FILE = "PicTile/PicTile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		411C49621346987300E066ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicTile.app/PicTile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicTileTests/PicTileTests-Prefix.pch";
+				INFOPLIST_FILE = "PicTileTests/PicTileTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		411C49631346987300E066ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicTile.app/PicTile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicTileTests/PicTileTests-Prefix.pch";
+				INFOPLIST_FILE = "PicTileTests/PicTileTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411C491C1346987200E066ED /* Build configuration list for PBXProject "PicTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411C495C1346987300E066ED /* Debug */,
+				411C495D1346987300E066ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411C495E1346987300E066ED /* Build configuration list for PBXNativeTarget "PicTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411C495F1346987300E066ED /* Debug */,
+				411C49601346987300E066ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411C49611346987300E066ED /* Build configuration list for PBXNativeTarget "PicTileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411C49621346987300E066ED /* Debug */,
+				411C49631346987300E066ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411C49191346987200E066ED /* Project object */;
+}

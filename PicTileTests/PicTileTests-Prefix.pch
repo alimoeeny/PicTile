@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PicTileTests' target in the 'PicTileTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
